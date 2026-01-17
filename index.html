@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrystalVoid | Ultimate Hub</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="void-bg"></div>
+    <div class="noise-overlay"></div>
+
+    <div class="top-bar">
+        <div class="status-indicator">
+            <span class="pulse-dot"></span>
+            <span data-i18n="status">SISTEMAS OPERACIONAIS</span>
+        </div>
+        <div class="lang-switcher">
+            <button class="lang-btn active" onclick="changeLang('pt')">PT</button>
+            <button class="lang-btn" onclick="changeLang('en')">EN</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1 class="main-logo">Crystal<span class="glow-text">Void</span></h1>
+            <p class="hero-subtitle" data-i18n="hero_desc">Alta performance, otimização e ferramentas de elite em um só lugar.</p>
+        </header>
+
+        <main class="bento-grid">
+            
+            <div class="card featured-card">
+                <div class="badge-official">OFFICIAL BY OREE</div>
+                <div class="card-content">
+                    <div class="icon-wrap featured-icon"><i class="ph-fill ph-lightning"></i></div>
+                    <h2>zclaw <span class="accent-text">Executor</span></h2>
+                    <p data-i18n="zclaw_desc">O auge da performance em execução. Estável, rápido e seguro.</p>
+                    <a href="https://orescripter.com/zclaw/" target="_blank" class="btn-main">
+                        <span data-i18n="btn_download">BAIXAR AGORA</span> <i class="ph ph-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon-wrap blue"><i class="ph ph-cpu"></i></div>
+                <h3>SapphireOS</h3>
+                <p data-i18n="sapphire_desc">Sistema Windows ultra otimizado para jogos e latência zero.</p>
+                <a href="https://discord.com/invite/sapphireos-1123140900084797510" target="_blank" class="btn-glass">
+                    <i class="ph ph-discord-logo"></i> Discord
+                </a>
+            </div>
+
+            <div class="card">
+                <div class="icon-wrap purple"><i class="ph ph-desktop"></i></div>
+                <h3>Simple Executor</h3>
+                <p data-i18n="simple_desc">Minimalista e funcional. Perfeito para testes rápidos.</p>
+                <a href="https://www.mediafire.com/file/cl36deu7bkjer8t/Simple+Executor.rar/file" target="_blank" class="btn-glass">
+                    <i class="ph ph-download-simple"></i> Download
+                </a>
+            </div>
+
+            <div class="card">
+                <div class="icon-wrap green"><i class="ph ph-mouse-left-click"></i></div>
+                <h3>Auto Clicker</h3>
+                <p data-i18n="clicker_desc">Frequência extrema de 0ms a 1ms. O mais rápido do mercado.</p>
+                <a href="https://www.mediafire.com/file/ro5pvdjinftbz7q/EzAutoClicker.exe/file" target="_blank" class="btn-glass green-hover">
+                    <i class="ph ph-cursor-click"></i> Download
+                </a>
+            </div>
+
+            <div class="card">
+                <div class="icon-wrap yellow"><i class="ph ph-music-notes"></i></div>
+                <h3>Spotify Tool</h3>
+                <p data-i18n="spotify_desc">Gerenciador de músicas e ferramentas diretas para Spotify Desktop.</p>
+                <a href="https://www.spotify.com/br-pt/download/windows/" target="_blank" class="btn-glass yellow-hover">
+                    <i class="ph ph-spotify-logo"></i> Spotify Tool
+                </a>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>© 2026 CRYSTALVOID HUB | <span class="creator">oReeScripter</span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
